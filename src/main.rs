@@ -15,6 +15,7 @@ fn App() -> impl IntoView {
             "Click me: "
             {move || count.get()}
         </button>
+        <progress max="50" value={count}/>
     }
 }
 
